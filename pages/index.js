@@ -1,5 +1,9 @@
-import Head from "next/head";
+import MainContainer from "../components/Layouts/MainContainer";
 
 export default function Home() {
-  return <h4>hellow Adzam</h4>;
+  return (
+    <MainContainer>
+      <h4>hellow Adzam</h4>
+    </MainContainer>
+  );
 }
