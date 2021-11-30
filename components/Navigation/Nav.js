@@ -19,37 +19,37 @@ const Nav = () => {
 
         <NavItem
           name="Movies"
-          href="/"
+          href="/movies"
           icon={<BiCameraMovie className="text-3xl" />}
         />
 
         <NavItem
           name="sports"
-          href="/"
+          href="/sports"
           icon={<IoIosFootball className="text-3xl" />}
         />
 
         <NavItem
           name="Search"
-          href="/"
+          href="/search"
           icon={<BsSearch className="text-3xl" />}
         />
 
         <NavItem
           name="Tv Series"
-          href="/"
+          href="/tvSeries"
           icon={<CgScreen className="text-3xl" />}
         />
 
         <NavItem
           name="Subscriptions"
-          href="/"
+          href="/subscription"
           icon={<AiOutlineDollarCircle className="text-3xl" />}
         />
 
         <NavItem
           name="Live TV"
-          href="/"
+          href="/liveTv"
           icon={<RiLiveLine className="text-3xl" />}
         />
       </ul>
