@@ -1,9 +1,12 @@
+import Carousel from "../components/Carousel";
 import MainContainer from "../components/Layouts/MainContainer";
 
 export default function Home() {
   return (
     <MainContainer>
-      <h4 className="text-center">hellow Adzam</h4>
+      <section className="h-[400px] overflow-hidden ">
+        <Carousel />
+      </section>
     </MainContainer>
   );
 }
