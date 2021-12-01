@@ -1,7 +1,7 @@
 import React from "react";
 
 const CarouselItem = ({ position, url }) => {
-  const activeClasses = "left-1/2 transform -translate-x-1/2 scale group";
+  const activeClasses = "left-1/2 z-20 transform -translate-x-1/2 scale group";
   const leftClasses =
     "-left-2/3 transform  translate-x-2/3 scale-90 hover:scale-95";
   const rightClasses =
@@ -16,7 +16,7 @@ const CarouselItem = ({ position, url }) => {
       : "";
   return (
     <div
-      className={`  h-full w-[700px] rounded-md  inline-block absolute  shadow-md cursor-pointer transition-all overflow-hidden ${classes}`}
+      className={`  h-full  w-[50vw] rounded-md  inline-block absolute  shadow-md cursor-pointer transition-all overflow-hidden ${classes}`}
     >
       <img
         src={url}
