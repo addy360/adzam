@@ -1,7 +1,7 @@
 import React from "react";
 
 const CarouselItem = ({ position, url }) => {
-  const activeClasses = "left-1/2 z-20 transform -translate-x-1/2 scale group";
+  const activeClasses = "left-1/2 z-10 transform -translate-x-1/2 scale group";
   const leftClasses =
     "-left-2/3 transform  translate-x-2/3 scale-90 hover:scale-95";
   const rightClasses =
