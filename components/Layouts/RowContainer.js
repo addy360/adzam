@@ -16,7 +16,7 @@ const RowContainer = ({ title }) => {
   return (
     <section className="my-5  w-full p-5  ">
       <h1 className="font-light md:text-2xl">{title}</h1>
-      <div className="overflow-x-auto w-full p-5  flex gap-10">
+      <div className="overflow-x-auto w-full p-5  flex md:gap-10 gap-5">
         <RowContainerItem />
         <RowContainerItem />
         <RowContainerItem />
