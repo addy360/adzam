@@ -1,12 +1,18 @@
 import React from "react";
+import Carousel from "../components/Carousel";
 import MainContainer from "../components/Layouts/MainContainer";
+import RowContainer from "../components/Layouts/RowContainer";
 
 const TvSeries = () => {
   return (
     <MainContainer title="Tv Series">
-      <div>
-        <h4 className="text-center">hellow Tv series</h4>
-      </div>
+      <section className="h-[200px] md:h-[400px] overflow-hidden ">
+        <Carousel />
+      </section>
+
+      <RowContainer title="Action" />
+      <RowContainer title="Drama" />
+      <RowContainer title="Crime" />
     </MainContainer>
   );
 };
