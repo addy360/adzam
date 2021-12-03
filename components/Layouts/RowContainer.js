@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Spinner from "../Spinner";
 
 const RowContainerItem = () => {
   const [url, setUrl] = useState(null);
@@ -14,7 +15,7 @@ const RowContainerItem = () => {
   return (
     <div className="w-[150px] md:w-[200px] h-[80px] md:h-[100px] cursor-pointer shadow-md hover:shadow-2xl hover:scale-110 transition-all flex-shrink-0  overflow-hidden rounded-md">
       {!url ? (
-        <h4>Loading</h4>
+        <Spinner />
       ) : (
         <img
           src={url}
